@@ -9,13 +9,16 @@ Sou Pedro Victor (PV), desenvolvedor a 4 anos, pesquisador da UFF e estudante de
 - meu site: https://portfolio-pedrovictor.web.app/
 - Linkedin: https://www.linkedin.com/in/pedrovictor12/
 
-Tambem tenho um artigo cientfico que irei apresentar no mes de outubro na Universidade Federal Fluminense
+Tambem tenho um artigo cientfico que irei apresentar no mes de outubro no ano de 2024 na Universidade Federal Fluminense
 
 Você pode acessar o [Relatório Final PIBIC - PEDRO V](https://raw.githubusercontent.com/PedroVic12/ia-gemini-alura3/main/Relat%C3%B3rio%20Final%20PIBIC%20-%20PEDRO%20V.pdf) clicando no link abaixo:
 
-<a href="https://raw.githubusercontent.com/PedroVic12/ia-gemini-alura3/main/Relat%C3%B3rio%20Final%20PIBIC%20-%20PEDRO%20V.pdf" target="_blank">Acesse o Relatório Final PIBIC - PEDRO V</a>
+<a href="https://raw.githubusercontent.com/PedroVic12/ia-gemini-alura3/main/Relat%C3%B3rio%20Final%20PIBIC%20-%20PEDRO%20V.pdf" target="_blank">Acesse o Relatório Final PIBIC - PEDRO Victor</a>
 
 Este documento descreve três projetos distintos: um chatbot para WhatsApp, um frontend web para interação com um chatbot de IA e um dashboard interativo construído com Dash.
+
+Me compromento em deixar os 3 projetos open-source, foram 3 projetos muitos legais de trabalhar sozinho porem as funcionalidades modernas que prometo e desejo acho que a comunidade, principalmente da parte de front end com react pode me ajudar visto que minha stack favorita seja Ciencia de Dados. Por ter pouco tempo na programação (4 anos) ainda estou aprendendo a contribuir e divulgar projetos Open-Source
+
 
 ## Projeto 1: Chatbot para WhatsApp MultiAssistente
 ---
