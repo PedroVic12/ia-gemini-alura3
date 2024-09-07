@@ -95,6 +95,7 @@ Exploração interativa de dados: Facilita a análise de dados por meio de filtr
 Upload e visualização de dados personalizados: Permite que os usuários analisem seus próprios dados no dashboard.
 Tomada de decisões baseada em dados: O dashboard fornece insights que podem auxiliar na tomada de decisões estratégicas de marketing.
 
-repositorio Github: https://github.com/PedroVic12/DashBoard-Moderno-IA
-web demo: https://dashboard-moderno-ia.onrender.com/
+- repositorio Github: https://github.com/PedroVic12/DashBoard-Moderno-IA
+
+- web demo: https://dashboard-moderno-ia.onrender.com/
 
