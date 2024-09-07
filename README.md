@@ -32,9 +32,12 @@ Agendamento de compromissos: Facilita o agendamento de consultas, reservas e out
 Gerenciamento de pedidos de entrega: Automatiza o processo de pedidos, desde a coleta de informações até o acompanhamento da entrega.
 Disponibilidade 24/7: O chatbot pode responder a mensagens a qualquer hora do dia, proporcionando um atendimento ininterrupto.
 
-repositorio Github: https://github.com/PedroVic12/Chatbot-Groundon-Wpp
-FAÇA UMA CONVERSA COM ELE: 21 988377364
-Link Whatsapp: https://api.whatsapp.com/send/?phone=5521988377364&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Chatbot%20Ruby%20para%20Delivery
+- repositorio Github: https://github.com/PedroVic12/Chatbot-Groundon-Wpp
+
+- FAÇA UMA CONVERSA COM ELE: 21 988377364
+
+
+- Link Whatsapp: https://api.whatsapp.com/send/?phone=5521988377364&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Chatbot%20Ruby%20para%20Delivery
 
 ## Projeto 2: Frontend Web para Chatbot de IA React e Flask
 ---
@@ -61,6 +64,9 @@ Interface amigável para interação com chatbot de IA: Permite que os usuários
 Acessibilidade: O suporte a reconhecimento e síntese de voz torna o chatbot acessível a usuários com dificuldades de digitação ou leitura.
 Integração com diferentes modelos de IA: O frontend pode ser facilmente adaptado para usar diferentes modelos de chatbot.
 
+- repositorio Github: https://github.com/PedroVic12/C3PO-Assistente-Virtual-BR
+
+- web demo: https://c3po-assistente-virtual-br.onrender.com/
 
 
 ## Projeto 3: Dashboard Interativo com Dash em Python  
