@@ -1,2 +1,5 @@
 2024/09/07-14:20:33.180 4 Creating DB /home/pedrov12/Documentos/GitHub/ia-gemini-alura3/src/chatbots/tokens/bots/Default/Local Storage/leveldb since it was missing.
 2024/09/07-14:20:33.225 4 Reusing MANIFEST /home/pedrov12/Documentos/GitHub/ia-gemini-alura3/src/chatbots/tokens/bots/Default/Local Storage/leveldb/MANIFEST-000001
+2024/09/07-16:19:33.668 5 Level-0 table #5: started
+2024/09/07-16:19:33.673 5 Level-0 table #5: 13128 bytes OK
+2024/09/07-16:19:33.680 5 Delete type=0 #3
