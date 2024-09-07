@@ -5,7 +5,12 @@
  
 
 Sou Pedro Victor (PV), desenvolvedor a 4 anos, pesquisador da UFF e estudante de Engenharia Eletrica. Para saber mais sobre mim e dos meus projetos acesse:
-https://portfolio-pedrovictor.web.app/
+
+- meu site: https://portfolio-pedrovictor.web.app/
+- Linkedin: https://www.linkedin.com/in/pedrovictor12/
+
+Tambem tenho um artigo cientfico que irei apresentar no mes de outubro na Universidade Federal Fluminense
+<a id="raw-url" href="https://raw.githubusercontent.com/github-username/project/master/filename">Ver Framework Python para Algoritmos Evolutivos </a>
 
 Este documento descreve três projetos distintos: um chatbot para WhatsApp, um frontend web para interação com um chatbot de IA e um dashboard interativo construído com Dash.
 
