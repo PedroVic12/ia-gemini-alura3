@@ -10,7 +10,10 @@ Sou Pedro Victor (PV), desenvolvedor a 4 anos, pesquisador da UFF e estudante de
 - Linkedin: https://www.linkedin.com/in/pedrovictor12/
 
 Tambem tenho um artigo cientfico que irei apresentar no mes de outubro na Universidade Federal Fluminense
-<a id="raw-url" href="https://raw.githubusercontent.com/github-username/project/master/filename">Ver Framework Python para Algoritmos Evolutivos </a>
+
+Você pode acessar o [Relatório Final PIBIC - PEDRO V](https://raw.githubusercontent.com/PedroVic12/ia-gemini-alura3/main/Relat%C3%B3rio%20Final%20PIBIC%20-%20PEDRO%20V.pdf) clicando no link abaixo:
+
+<a href="https://raw.githubusercontent.com/PedroVic12/ia-gemini-alura3/main/Relat%C3%B3rio%20Final%20PIBIC%20-%20PEDRO%20V.pdf" target="_blank">Acesse o Relatório Final PIBIC - PEDRO V</a>
 
 Este documento descreve três projetos distintos: um chatbot para WhatsApp, um frontend web para interação com um chatbot de IA e um dashboard interativo construído com Dash.
 
