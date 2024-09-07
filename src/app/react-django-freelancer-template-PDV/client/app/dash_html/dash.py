@@ -1,14 +1,35 @@
-import dash
-from dash.dependencies import Input, Output
+from dash import Dash, dcc, html, Input, Output, callback
 import dash_core_components as dcc
 import dash_html_components as html
 import dash_bootstrap_components as dbc
 import requests
 
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 app.layout = html.Div([
     # ... layout da aplicação utilizando dbc.Row e dbc.Col
+    dbc.Row([
+        dbc.Col([
+            html.H1('Cardápio')
+        ])
+    ]),
+    dbc.Row([
+        dbc.Col([
+            dcc.Dropdown(
+                id='category-dropdown',
+                options=[
+                    {'label': 'Bebidas', 'value': 'drinks'},
+                    {'label': 'Pratos', 'value': 'dishes'},
+                    {'label': 'Sobremesas', 'value': 'desserts'}
+                ],
+                value='drinks'
+            )
+        ])
+    ]),
+
+
+
+
 ])
 
 @app.callback(
