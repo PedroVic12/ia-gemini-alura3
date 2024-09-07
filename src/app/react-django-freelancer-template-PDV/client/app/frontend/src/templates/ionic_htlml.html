@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page with Ionic and React</title>
+  <!-- Ionic CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" rel="stylesheet">
+  <!-- React and ReactDOM -->
+  <script src="https://unpkg.com/react/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+  <!-- Babel for JSX -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+  <!-- Ionic JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+
+
+
+
+
+
+
+
+            <div class="row mt-4">
+              <div class="col-md-12">
+                  <h1>Materiais</h1>
+                  <p>Explore nossos materiais de download.</p>
+
+                  <!-- Cards de Materiais -->
+                  <div class="card-deck">
+                      @foreach($materials as $material)
+                      <div class="card">
+                          <img src="{{ $material->image_url }}" class="card-img-top" alt="{{ $material->title }}">
+                          <div class="card-body">
+                              <h5 class="card-title">{{ $material->title }}</h5>
+                              <p class="card-text">{{ $material->description }}</p>
+                              <a href="{{ $material->download_url }}" class="btn btn-primary">Baixar</a>
+                          </div>
+                      </div>
+                      @endforeach
+                  </div>
+              </div>
+          </div>
+
+
+
+
+
+          
+  <script type="text/babel">
+    // Define a React component using POO
+    class App extends React.Component {
+      render() {
+        return (
+          
+          <ion-app>
+            <ion-header>
+              <ion-toolbar>
+                <ion-title>Landing Page</ion-title>
+              </ion-toolbar>
+            </ion-header>
+            <ion-content>
+              <div style={{ textAlign: 'center', padding: '20px' }}>
+                <h1>Welcome to Our Landing Page</h1>
+                <p>This is a sample landing page built with Ionic and React.</p>
+                <ion-button color="primary">Get Started</ion-button>
+              </div>
+            </ion-content>
+
+            
+          </ion-app>
+        );
+      }
+    }
+
+    // Render the React component into the DOM
+    ReactDOM.render(<App />, document.getElementById('root'));
+  </script>
+</body>
+</html>
