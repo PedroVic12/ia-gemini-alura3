@@ -3,6 +3,10 @@
 
  Machine Learning, IA generativa, React, Django e Flutter, aproveitando o melhor de cada tecnologia para criar projetos inovadores:
  
+
+Sou Pedro Victor (PV), desenvolvedor a 4 anos, pesquisador da UFF e estudante de Engenharia Eletrica. Para saber mais sobre mim e dos meus projetos acesse:
+https://portfolio-pedrovictor.web.app/
+
 Este documento descreve três projetos distintos: um chatbot para WhatsApp, um frontend web para interação com um chatbot de IA e um dashboard interativo construído com Dash.
 
 ## Projeto 1: Chatbot para WhatsApp MultiAssistente
@@ -28,6 +32,9 @@ Agendamento de compromissos: Facilita o agendamento de consultas, reservas e out
 Gerenciamento de pedidos de entrega: Automatiza o processo de pedidos, desde a coleta de informações até o acompanhamento da entrega.
 Disponibilidade 24/7: O chatbot pode responder a mensagens a qualquer hora do dia, proporcionando um atendimento ininterrupto.
 
+repositorio Github: https://github.com/PedroVic12/Chatbot-Groundon-Wpp
+FAÇA UMA CONVERSA COM ELE: 21 988377364
+Link Whatsapp: https://api.whatsapp.com/send/?phone=5521988377364&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Chatbot%20Ruby%20para%20Delivery
 
 ## Projeto 2: Frontend Web para Chatbot de IA React e Flask
 ---
@@ -81,3 +88,7 @@ Visualização de dados de marketing: Permite que os usuários compreendam as te
 Exploração interativa de dados: Facilita a análise de dados por meio de filtros, interações e diferentes tipos de visualizações.
 Upload e visualização de dados personalizados: Permite que os usuários analisem seus próprios dados no dashboard.
 Tomada de decisões baseada em dados: O dashboard fornece insights que podem auxiliar na tomada de decisões estratégicas de marketing.
+
+repositorio Github: https://github.com/PedroVic12/DashBoard-Moderno-IA
+web demo: https://dashboard-moderno-ia.onrender.com/
+
