@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C3PO Assistente Pessoal</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+
+</head>
+
+<body>
+    <div id="root"></div>
+
+
+
+    <!-- <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>  -->
+
+    
+    
+    
+    <script type="text/babel">
+
+
+        // import React from 'react'
+        
+    /*  import {createRoot} from 'react-dom/client'
+        import Markdown from 'react-markdown'
+        import remarkGfm from 'remark-gfm'
+
+        const markdown = `Just a link: www.nasa.gov.`
+
+        createRoot(document.body).render(
+          <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>
+        )
+    */
+
+    
+
+
+
+        class ChatbotUser extends React.Component {
+            constructor(props) {
+                super(props);
+                this.state = {
+                    userInput: '',
+                    conversationHistory: [{ role: 'system', content: 'Você é um assistente atencioso.' }],
+                    models: [],
+                    selectedModel: 'gemini-pro', // Default model
+                    voiceEnabled: true,
+                    audioFile: "/static/output.mp"
+                };
+            }
+
+            componentDidMount() {
+                this.fetchModels();
+            }
+
+            fetchModels = async () => {
+                try {
+                    const response = await axios.get('/models');
+                    this.setState({ models: response.data });
+                } catch (error) {
+                    console.error('Erro ao buscar modelos:', error);
+                }
+            };
+
+            handleInputChange = (event) => {
+                this.setState({ userInput: event.target.value });
+            };
+
+            handleModelChange = (event) => {
+                this.setState({ selectedModel: event.target.value });
+            };
+
+            toggleVoice = () => {
+                this.setState(prevState => ({ voiceEnabled: !prevState.voiceEnabled }));
+            };
+
+            sendMessage = async () => {
+                const { userInput, conversationHistory, selectedModel, voiceEnabled } = this.state;
+                if (userInput.trim() !== '') {
+                    this.setState(prevState => ({
+                        conversationHistory: [...prevState.conversationHistory, { role: 'user', content: userInput }],
+                        userInput: ''
+                    }));
+
+                    try {
+                        const response = await axios.post('/chat', {
+                            model: selectedModel,
+                            user_input: userInput,
+                            conversation_history: conversationHistory,
+                            voice_enabled: voiceEnabled
+                        });
+
+                        this.setState(prevState => ({
+                            conversationHistory: response.data.conversation_history,
+                            audioFile: response.data.audio_file
+                        }));
+
+                        if (voiceEnabled && this.state.audioFile) {
+                            const audio = new Audio(`/audio/${this.state.audioFile}`);
+                            audio.play();
+                        }
+                    } catch (error) {
+                        console.error('Erro ao enviar mensagem:', error);
+                    }
+                }
+            };
+
+            render() {
+                const { userInput, conversationHistory, models, selectedModel, voiceEnabled } = this.state;
+                return (
+                    <div className="container">
+
+                        <h1>Assistente de Pedro Victor Veras C3PO! Tdah, produtividade, rotinas e treinos!</h1>
+                        <div>
+                            <img src="https://moseisleychronicles.wordpress.com/wp-content/uploads/2015/11/untitled-215.gif" alt="Description of the GIF" />
+                        
+                            <figure>
+                              <figcaption>Ouça o áudio gerado:</figcaption>
+                              <audio id="audioDownload" controls src="{{ url_for('static', filename='output.mp3') }}"></audio>
+                              <a href="{{ url_for('static', filename='output.mp3') }}">Baixar áudio</a>
+                            </figure>
+                        </div>
+
+
+                        <select id="model-select" value={selectedModel} onChange={this.handleModelChange}>
+                            {models.map(model => (
+                                <option key={model} value={model}>{model}</option>
+                            ))}
+                        </select>
+                        <button id="voice-toggle" className={voiceEnabled ? '' : 'off'} onClick={this.toggleVoice}>
+                            Voz: {voiceEnabled ? 'Ligada' : 'Desligada'}
+                        </button>
+
+
+
+
+                       
+                        <div id="chat-history">
+                            {conversationHistory.map((message, index) => (
+                                <div key={index} className={`message ${message.role === 'user' ? 'user-message' : 'assistant-message'}`}>
+                                    <strong>{message.role === 'user' ? 'Você' : 'Assistente'}:</strong> {message.content}
+                                </div>
+                            ))}
+                        </div>
+                        <div className="input-area">
+                            <input
+                                type="text"
+                                id="user-input"
+                                placeholder="Digite sua mensagem..."
+                                value={userInput}
+                                onChange={this.handleInputChange}
+                                onKeyPress={event => event.key === 'Enter' && this.sendMessage()}
+                            />
+                            <button id="send-button" onClick={this.sendMessage}>Enviar</button>
+                        </div>
+
+
+
+                    </div>
+                );
+            }
+        }
+
+        class App extends React.Component {
+            render() {
+                return (
+
+
+                    <ChatbotUser />
+                );
+            }
+        }
+
+        ReactDOM.render(<App />, document.getElementById('root'));
+
+
+    // manipulando o audio gerado
+    const audioPlayer = document.getElementById('audioPlayer');
+    let lastModified = 0;
+
+    function checkAudioUpdate() {
+      fetch('{{ url_for("static", filename="output.mp3") }}', { method: 'HEAD' })
+        .then(response => {
+          if (response.ok) {
+            const newLastModified = Date.parse(response.headers.get('Last-Modified'));
+            if (newLastModified > lastModified) {
+              lastModified = newLastModified;
+              audioPlayer.load(); // Recarregar o áudio
+              audioPlayer.play(); // Reproduzir o áudio automaticamente
+            }
+          }
+        })
+        .catch(error => {
+          console.error('Erro ao verificar atualização do áudio:', error);
+        });
+    }
+
+    // Verificar a atualização do áudio a cada 5 segundos
+    //setInterval(checkAudioUpdate, 5000); 
+    </script>
+</body>
+
+</html>

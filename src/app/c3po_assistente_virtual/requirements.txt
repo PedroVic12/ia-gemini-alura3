@@ -1,0 +1,6 @@
+flask
+google-api-core
+google-generativeai
+pandas
+Gunicorn
+flask-cors
