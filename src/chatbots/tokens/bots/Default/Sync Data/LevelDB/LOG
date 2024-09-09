@@ -1,2 +1,3 @@
-2024/09/07-14:20:33.171 d39c Creating DB /home/pedrov12/Documentos/GitHub/ia-gemini-alura3/src/chatbots/tokens/bots/Default/Sync Data/LevelDB since it was missing.
-2024/09/07-14:20:33.198 d39c Reusing MANIFEST /home/pedrov12/Documentos/GitHub/ia-gemini-alura3/src/chatbots/tokens/bots/Default/Sync Data/LevelDB/MANIFEST-000001
+2024/09/07-17:57:07.114 131f2 Reusing MANIFEST /home/pedrov12/Documentos/GitHub/ia-gemini-alura3/src/chatbots/tokens/bots/Default/Sync Data/LevelDB/MANIFEST-000001
+2024/09/07-17:57:07.114 131f2 Recovering log #3
+2024/09/07-17:57:07.115 131f2 Reusing old log /home/pedrov12/Documentos/GitHub/ia-gemini-alura3/src/chatbots/tokens/bots/Default/Sync Data/LevelDB/000003.log 

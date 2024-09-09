@@ -1,5 +1,33 @@
-2024/09/07-14:20:33.180 4 Creating DB /home/pedrov12/Documentos/GitHub/ia-gemini-alura3/src/chatbots/tokens/bots/Default/Local Storage/leveldb since it was missing.
-2024/09/07-14:20:33.225 4 Reusing MANIFEST /home/pedrov12/Documentos/GitHub/ia-gemini-alura3/src/chatbots/tokens/bots/Default/Local Storage/leveldb/MANIFEST-000001
-2024/09/07-16:19:33.668 5 Level-0 table #5: started
-2024/09/07-16:19:33.673 5 Level-0 table #5: 13128 bytes OK
-2024/09/07-16:19:33.680 5 Delete type=0 #3
+2024/09/07-17:57:07.122 4 Reusing MANIFEST /home/pedrov12/Documentos/GitHub/ia-gemini-alura3/src/chatbots/tokens/bots/Default/Local Storage/leveldb/MANIFEST-000001
+2024/09/07-17:57:07.128 4 Recovering log #4
+2024/09/07-17:57:07.129 4 Reusing old log /home/pedrov12/Documentos/GitHub/ia-gemini-alura3/src/chatbots/tokens/bots/Default/Local Storage/leveldb/000004.log 
+2024/09/07-19:32:07.565 4 Level-0 table #8: started
+2024/09/07-19:32:07.570 4 Level-0 table #8: 10887 bytes OK
+2024/09/07-19:32:07.577 4 Delete type=0 #4
+2024/09/07-21:40:07.565 5 Level-0 table #10: started
+2024/09/07-21:40:07.569 5 Level-0 table #10: 9523 bytes OK
+2024/09/07-21:40:07.576 5 Delete type=0 #7
+2024/09/07-23:58:07.565 4 Level-0 table #12: started
+2024/09/07-23:58:07.570 4 Level-0 table #12: 9117 bytes OK
+2024/09/07-23:58:07.577 4 Delete type=0 #9
+2024/09/08-02:16:07.566 5 Level-0 table #14: started
+2024/09/08-02:16:07.570 5 Level-0 table #14: 9055 bytes OK
+2024/09/08-02:16:07.577 5 Delete type=0 #11
+2024/09/08-04:34:07.566 5 Level-0 table #16: started
+2024/09/08-04:34:07.572 5 Level-0 table #16: 9053 bytes OK
+2024/09/08-04:34:07.580 5 Delete type=0 #13
+2024/09/08-04:34:07.580 5 Compacting 4@0 + 1@1 files
+2024/09/08-04:34:07.585 5 Generated table #17@0: 23 keys, 3179 bytes
+2024/09/08-04:34:07.585 5 Compacted 4@0 + 1@1 files => 3179 bytes
+2024/09/08-04:34:07.591 5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/08-04:34:07.592 5 Delete type=2 #8
+2024/09/08-04:34:07.592 5 Delete type=2 #10
+2024/09/08-04:34:07.592 5 Delete type=2 #12
+2024/09/08-04:34:07.592 5 Delete type=2 #14
+2024/09/08-04:34:07.592 5 Delete type=2 #16
+2024/09/08-06:42:07.566 5 Level-0 table #19: started
+2024/09/08-06:42:07.571 5 Level-0 table #19: 9523 bytes OK
+2024/09/08-06:42:07.580 5 Delete type=0 #15
+2024/09/08-09:00:07.565 5 Level-0 table #21: started
+2024/09/08-09:00:07.570 5 Level-0 table #21: 9225 bytes OK
+2024/09/08-09:00:07.577 5 Delete type=0 #18

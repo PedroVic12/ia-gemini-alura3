@@ -1,2 +1,3 @@
-2024/09/07-14:20:33.320 4 Creating DB /home/pedrov12/Documentos/GitHub/ia-gemini-alura3/src/chatbots/tokens/bots/Default/Session Storage since it was missing.
-2024/09/07-14:20:33.383 4 Reusing MANIFEST /home/pedrov12/Documentos/GitHub/ia-gemini-alura3/src/chatbots/tokens/bots/Default/Session Storage/MANIFEST-000001
+2024/09/07-17:57:07.258 4 Reusing MANIFEST /home/pedrov12/Documentos/GitHub/ia-gemini-alura3/src/chatbots/tokens/bots/Default/Session Storage/MANIFEST-000001
+2024/09/07-17:57:07.258 4 Recovering log #3
+2024/09/07-17:57:07.259 4 Reusing old log /home/pedrov12/Documentos/GitHub/ia-gemini-alura3/src/chatbots/tokens/bots/Default/Session Storage/000003.log 
