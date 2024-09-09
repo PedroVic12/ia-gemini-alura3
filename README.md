@@ -7,7 +7,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
-    <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/https://raw.githubusercontent.com/PedroVic12/ia-gemini-alura3/main/assets/gesture_control_jarvis.png">
+    <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://raw.githubusercontent.com/PedroVic12/ia-gemini-alura3/main/assets/gesture_control_jarvis.png">
 
   
 </picture>
@@ -99,7 +99,7 @@ Integração com diferentes modelos de IA: O frontend pode ser facilmente adapta
 <picture>
   
   
-  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/https://raw.githubusercontent.com/PedroVic12/ia-gemini-alura3/main/assets/gesture_control_jarvis.png">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://raw.githubusercontent.com/PedroVic12/ia-gemini-alura3/main/assets/gesture_control_jarvis.png">
 </picture>
 
 
