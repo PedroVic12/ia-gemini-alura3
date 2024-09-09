@@ -4,6 +4,12 @@
  Machine Learning, IA generativa, React, Django e Flutter, aproveitando o melhor de cada tecnologia para criar projetos inovadores:
  
 
+
+
+
+
+
+
 Sou Pedro Victor (PV), desenvolvedor a 4 anos, pesquisador da UFF e estudante de Engenharia Eletrica. Para saber mais sobre mim e dos meus projetos acesse:
 
 - meu site: https://portfolio-pedrovictor.web.app/
