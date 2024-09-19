@@ -7,7 +7,6 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
-    <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://raw.githubusercontent.com/PedroVic12/ia-gemini-alura3/main/assets/gesture_control_jarvis.png">
 
   
 </picture>
@@ -35,6 +34,11 @@ Você pode acessar o [Relatório Final PIBIC - PEDRO V](https://raw.githubuserco
 
 ### Motivação:
 Automatizar o atendimento ao cliente e fornecer informações e serviços através do WhatsApp, uma plataforma de comunicação amplamente utilizada.
+
+<picture>
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://raw.githubusercontent.com/PedroVic12/ia-gemini-alura3/main/assets/groundon_bot.png">
+</picture>
+
 
 ### Como Funciona:
 O chatbot utiliza a biblioteca @wppconnect-team/wppconnect para se conectar ao WhatsApp e interagir com as mensagens recebidas. Ele implementa três "bots" especializados:
@@ -70,6 +74,12 @@ Disponibilidade 24/7: O chatbot pode responder a mensagens a qualquer hora do di
 ### Motivação:
 Criar uma interface web amigável para interagir com um chatbot de IA, permitindo que os usuários conversem com o chatbot e recebam respostas em texto e áudio.
 
+
+<picture>
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://raw.githubusercontent.com/PedroVic12/ia-gemini-alura3/main/assets/c3po_site.png">
+</picture>
+
+
 ### Como Funciona:
 O frontend utiliza React para construir a interface do usuário. Ele se comunica com um backend (não descrito neste documento) que hospeda o modelo de chatbot de IA. As funcionalidades incluem:
 Seleção de Modelo: Permite que o usuário escolha entre diferentes modelos de chatbot disponíveis.
@@ -81,9 +91,13 @@ Controle de Voz: O usuário pode ativar/desativar a saída de voz do chatbot.
 
 ## Tecnologias Usadas:
 React: Biblioteca JavaScript para construir interfaces de usuário.
-Axios: Biblioteca JavaScript para fazer solicitações HTTP ao backend.
+
+Flask: Biblioteca Python para fazer solicitações HTTP ao backend.
+
 SpeechRecognition API: API do navegador para reconhecimento de voz.
+
 SpeechSynthesis API: API do navegador para síntese de fala (text-to-speech).
+
 HTML, CSS e JavaScript: Tecnologias web padrão para a construção do frontend.
 
 ## Para que Serve:
@@ -100,13 +114,15 @@ Integração com diferentes modelos de IA: O frontend pode ser facilmente adapta
 ---
 
 
-<picture>
-  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://raw.githubusercontent.com/PedroVic12/ia-gemini-alura3/main/assets/gesture_control_jarvis.png">
-</picture>
 
 
 ### Motivação:
 Criar um dashboard interativo para visualizar dados de marketing, permitindo que os usuários explorem as informações de forma dinâmica e intuitiva.
+
+<picture>
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://raw.githubusercontent.com/PedroVic12/ia-gemini-alura3/main/assets/gesture_control_jarvis.png">
+</picture>
+
 
 ###  Como Funciona:
 O dashboard utiliza a biblioteca Dash para construir a interface e os gráficos interativos. Ele se conecta a um backend (representado pela classe DataModel) que fornece os dados. As funcionalidades incluem:
@@ -117,9 +133,13 @@ Filtros e Interações: O usuário pode interagir com os gráficos e filtros par
 
 ### Tecnologias Usadas:
 Dash: Framework Python para construir dashboards interativos.
+
 Plotly: Biblioteca Python para criar gráficos interativos.
+
 Pandas: Biblioteca Python para manipulação e análise de dados.
+
 Dash Bootstrap Components: Biblioteca para estilizar o dashboard com o framework Bootstrap.
+
 Python: Linguagem de programação para o desenvolvimento do backend e do dashboard.
 
 ### Para que Serve:
