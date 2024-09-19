@@ -27,9 +27,7 @@ Você pode acessar o [Relatório Final PIBIC - PEDRO V](https://raw.githubuserco
 
 <a href="https://raw.githubusercontent.com/PedroVic12/ia-gemini-alura3/main/Relat%C3%B3rio%20Final%20PIBIC%20-%20PEDRO%20V.pdf" target="_blank">Acesse o Relatório Final PIBIC - PEDRO Victor</a>
 
-Este documento descreve três projetos distintos: um chatbot para WhatsApp, um frontend web para interação com um chatbot de IA e um dashboard interativo construído com Dash.
-
-Me compromento em deixar os 3 projetos open-source, foram 3 projetos muitos legais de trabalhar sozinho porem as funcionalidades modernas que prometo e desejo acho que a comunidade, principalmente da parte de front end com react pode me ajudar visto que minha stack favorita seja Ciencia de Dados. Por ter pouco tempo na programação (4 anos) ainda estou aprendendo a contribuir e divulgar projetos Open-Source
+# Este documento descreve três projetos distintos: um chatbot para WhatsApp, um frontend web para interação com um chatbot de IA e um dashboard interativo construído com Dash.
 
 
 ## Projeto 1: Chatbot para WhatsApp MultiAssistente
@@ -43,13 +41,15 @@ O chatbot utiliza a biblioteca @wppconnect-team/wppconnect para se conectar ao W
 Atendente Chatbot: Responde a perguntas gerais e direciona o usuário para o serviço apropriado.
 Agendamento Chatbot: Permite que o usuário agende compromissos ou consultas.
 Delivery Chatbot: Gerencia pedidos de entrega, incluindo a coleta de informações do pedido e o acompanhamento da entrega.
+
 O chatbot mantém um estado para cada cliente, permitindo que ele acompanhe o contexto da conversa e personalize as interações.
 
 ### Tecnologias Usadas:
 Node.js: Ambiente de execução JavaScript.
 @wppconnect-team/wppconnect: Biblioteca para conectar e interagir com o WhatsApp.
 JavaScript: Linguagem de programação para o desenvolvimento do chatbot.
-Para que Serve:
+
+### Para que Serve:
 Atendimento ao cliente automatizado: Responde a perguntas frequentes, liberando a equipe de atendimento para lidar com questões mais complexas.
 Agendamento de compromissos: Facilita o agendamento de consultas, reservas e outros compromissos.
 Gerenciamento de pedidos de entrega: Automatiza o processo de pedidos, desde a coleta de informações até o acompanhamento da entrega.
@@ -76,13 +76,15 @@ Reconhecimento de Voz: O usuário pode falar sua mensagem usando o reconheciment
 Histórico de Conversa: Exibe o histórico das mensagens trocadas entre o usuário e o chatbot.
 Saída de Texto e Áudio: O chatbot responde com texto e áudio gerado a partir da resposta do modelo de IA.
 Controle de Voz: O usuário pode ativar/desativar a saída de voz do chatbot.
-Tecnologias Usadas:
+
+## Tecnologias Usadas:
 React: Biblioteca JavaScript para construir interfaces de usuário.
 Axios: Biblioteca JavaScript para fazer solicitações HTTP ao backend.
 SpeechRecognition API: API do navegador para reconhecimento de voz.
 SpeechSynthesis API: API do navegador para síntese de fala (text-to-speech).
 HTML, CSS e JavaScript: Tecnologias web padrão para a construção do frontend.
-Para que Serve:
+
+## Para que Serve:
 Interface amigável para interação com chatbot de IA: Permite que os usuários conversem com o chatbot de forma intuitiva.
 Acessibilidade: O suporte a reconhecimento e síntese de voz torna o chatbot acessível a usuários com dificuldades de digitação ou leitura.
 Integração com diferentes modelos de IA: O frontend pode ser facilmente adaptado para usar diferentes modelos de chatbot.
@@ -97,8 +99,6 @@ Integração com diferentes modelos de IA: O frontend pode ser facilmente adapta
 
 
 <picture>
-  
-  
   <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://raw.githubusercontent.com/PedroVic12/ia-gemini-alura3/main/assets/gesture_control_jarvis.png">
 </picture>
 
