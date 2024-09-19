@@ -46,7 +46,9 @@ O chatbot mantém um estado para cada cliente, permitindo que ele acompanhe o co
 
 ### Tecnologias Usadas:
 Node.js: Ambiente de execução JavaScript.
+
 @wppconnect-team/wppconnect: Biblioteca para conectar e interagir com o WhatsApp.
+
 JavaScript: Linguagem de programação para o desenvolvimento do chatbot.
 
 ### Para que Serve:
